@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "San Francisco Digital Marketing Agency | SEO, PPC, SMM";
+const description = "Top-rated digital marketing agency in San Francisco specializing in Search Engine Optimization (SEO), Pay-Per-Click (PPC) advertising, and Social Media Marketing (SMM).";
+---
+
+<Layout title={title} description={description}>
+  <section class="bg-blue-600 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+        <div>
+          <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            Grow Your Business in San Francisco
+          </h1>
+          <p class="mt-4 text-xl text-blue-100 max-w-3xl">
+            We are the premier digital marketing agency in the Bay Area, helping local businesses dominate search results, maximize ad spend, and engage audiences on social media.
+          </p>
+          <div class="mt-8 flex gap-4">
+            <a href="/seo" class="bg-white text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">Explore SEO</a>
+            <a href="/ppc" class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors">Explore PPC</a>
+          </div>
+        </div>
+        <div class="mt-10 lg:mt-0">
+          <img 
+            src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+            alt="Golden Gate Bridge San Francisco representing local digital marketing reach" 
+            class="rounded-lg shadow-xl"
+            width="800"
+            height="533"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Core Services</h2>
+        <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500">Comprehensive digital strategies tailored for the San Francisco market.</p>
+      </div>
+
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- SEO Service Card -->
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="SEO Analysis and Strategy" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Search Engine Optimization</h3>
+            <p class="text-gray-600 mb-4">Rank higher on Google for competitive San Francisco keywords. Drive organic, high-intent traffic to your website.</p>
+            <a href="/seo" class="text-blue-600 font-medium hover:text-blue-800">Learn more about SEO &rarr;</a>
+          </div>
+        </div>
+
+        <!-- PPC Service Card -->
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PPC Data Analytics Dashboard" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Pay-Per-Click Advertising</h3>
+            <p class="text-gray-600 mb-4">Maximize your ROI with targeted Google Ads and Bing Ads campaigns managed by certified professionals.</p>
+            <a href="/ppc" class="text-blue-600 font-medium hover:text-blue-800">Learn more about PPC &rarr;</a>
+          </div>
+        </div>
+
+        <!-- SMM Service Card -->
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Social Media Marketing Apps on Smartphone" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Social Media Marketing</h3>
+            <p class="text-gray-600 mb-4">Build brand awareness and engage with the vibrant San Francisco community across Facebook, Instagram, and LinkedIn.</p>
+            <a href="/smm" class="text-blue-600 font-medium hover:text-blue-800">Learn more about SMM &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
